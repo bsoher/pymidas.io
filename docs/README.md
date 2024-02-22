@@ -20,7 +20,7 @@ The MIDAS project provides an integrated set of MRI and MRSI processing function
 
 ## Credits
 
-Many.  To be included later. Funded originally by NIH grant number 1R01EB008387-01A1, that eventually became the Vespa project.
+This effort is based on code initially funded by NIH grant 1R01EB008387-01A1 that became the Vespa project. Other funding sources include NIH grants: U01CA264039, and many others
 
 We've had a lot of people support this effort, but I'd like to mention Philip Semanchuk (http://pyspoken.com), Dr. Jeffrey Alger and Dr. Alexander Giuffrida for their early contributions. 
 
