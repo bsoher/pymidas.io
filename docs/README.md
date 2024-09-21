@@ -1,4 +1,4 @@
-#  Overview of the PyMIDAS Package o-o
+#  Overview of the PyMIDAS Package
 
 The pymidas package is an integrated, open source, open development port of the MIDAS (Metabolite Imaging and Data Analysis System) software package, which was initially programmed in IDL. It contains multiple applications that can be combined into a pipeline, including: 
 
