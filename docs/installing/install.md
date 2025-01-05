@@ -46,7 +46,7 @@ This switches you from whatever virtual conda environment you are currently in, 
 
 2.2 Then run this command:
 
-`>conda install wxpython`  (if these do not install, try from conda-forge, as in 2.3)
+`>conda install -c conda-forge wxpython  (this may take a long time to finish)
 
 2.3 Then run this command:
 
