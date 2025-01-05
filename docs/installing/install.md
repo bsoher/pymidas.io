@@ -72,8 +72,10 @@ At the command line, run this command:
 
 In a text editor, edit the following line(s) to reflect the location of your miniconda 'pymidas311' (or whatever name) environment, and your pymidas Importer or Volumizer GUI modules. To test these, you should be able to cut/paste them into any CMD window and the app will run. It does not have to be a miniconda cmd window.
 
-'%windir%\System32\cmd.exe /k ""D:\bsoher\miniconda3\Scripts\activate.bat" "D:\bsoher\miniconda3\envs\pymidas311" && python "D:\bsoher\miniconda3\envs\pymidas311\Lib\site-packages\pymidas\importer\importer_gui.py" && exit"'
+`%windir%\System32\cmd.exe /k ""D:\bsoher\miniconda3\Scripts\activate.bat" "D:\bsoher\miniconda3\envs\pymidas311" && python "D:\bsoher\miniconda3\envs\pymidas311\Lib\site-packages\pymidas\importer\importer_gui.py" && exit"`
+
 and
-'%windir%\System32\cmd.exe /k ""D:\bsoher\miniconda3\Scripts\activate.bat" "D:\bsoher\miniconda3\envs\pymidas311" && python "D:\bsoher\miniconda3\envs\pymidas311\Lib\site-packages\pymidas\volumizer\volumizer_gui.py" && exit"'
+
+`%windir%\System32\cmd.exe /k ""D:\bsoher\miniconda3\Scripts\activate.bat" "D:\bsoher\miniconda3\envs\pymidas311" && python "D:\bsoher\miniconda3\envs\pymidas311\Lib\site-packages\pymidas\volumizer\volumizer_gui.py" && exit"`
 
 On your desktop, right click and select New->Shortcut. When asked to 'Type location of the item:' cut/paste one of the above lines into the dialog box. Click Next and name the Shortcut (typically Importer or Volumizer) and hit Enter.
