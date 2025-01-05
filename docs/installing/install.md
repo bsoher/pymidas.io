@@ -56,11 +56,24 @@ This switches you from whatever virtual conda environment you are currently in, 
 
 At the command line, run this command:
  
-`>pip install pymidas`
+`>pip install -i https://test.pypi.org/simple/ pymidas`
 
+Just FYI, for now we are distributing pymidas from the TestPyPI server
 
-### Step 4 - Doublecheck Vepsa Dependencies 
+### Step 4 (optional) - Doublecheck Vepsa Dependencies 
 
 At the command line, run this command:
  
 `>python -m pymidas.check_dependencies `
+
+### Step 5 (optional) - Create Windows Shortcut to Importer and Volumizer
+
+(Apologies, but for now we do not have Linux or OSX shortcut instruction)
+
+In a text editor, edit the following line(s) to reflect the location of your miniconda 'pymidas311' (or whatever name) environment, and your pymidas Importer or Volumizer GUI modules. To test these, you should be able to cut/paste them into any CMD window and the app will run. It does not have to be a miniconda cmd window.
+
+'%windir%\System32\cmd.exe /k ""D:\bsoher\miniconda3\Scripts\activate.bat" "D:\bsoher\miniconda3\envs\pymidas311" && python "D:\bsoher\miniconda3\envs\pymidas311\Lib\site-packages\pymidas\importer\importer_gui.py" && exit"'
+and
+'%windir%\System32\cmd.exe /k ""D:\bsoher\miniconda3\Scripts\activate.bat" "D:\bsoher\miniconda3\envs\pymidas311" && python "D:\bsoher\miniconda3\envs\pymidas311\Lib\site-packages\pymidas\volumizer\volumizer_gui.py" && exit"'
+
+On your desktop, right click and select New->Shortcut. When asked to 'Type location of the item:' cut/paste one of the above lines into the dialog box. Click Next and name the Shortcut (typically Importer or Volumizer) and hit Enter.
