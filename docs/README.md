@@ -6,11 +6,16 @@ The pymidas package is an integrated, open source, open development port of the 
 2. **volumizer** - beta - code to volumize Siemens and GE data (MRIs and EPSI) into MIDAS format. 
 3. **common** - code used by two or more applications in PyMidas. Includes the libxml.py module used to access MIDAS XML files.
 4. **midas_browser** - beta - GUI based selection tool for picking MIDAS Subject.xml nodes on which to act.
-5. **compare** - beta - simple GUI based tool for picking/comparing data in two binary files. 
-6. **epsi2** - alpha - porting the IDL epsi2 code to Python.
-7. **fdft** - alpha - code to perfrom FFT and other processing steps
+5. **epsi** - alpha - porting the IDL epsi2 code to Python.
+6. **fdft** - alpha - code to perform FFT and other processing steps
+7. **grappa** - alpha - code to perform GRAPPA combination processing steps
 8. **lite** - alpha - code to remove lipid contamination via Papoulis-Gerschberg algorithm
-9. **util** - alpha - useful code and utilities for running/testing code
+9. **mrmask** - alpha - code to create brain and lipid mask from MRI data but at EPSI resolution
+10. **pyseg** - alpha - app to segment T1 MRI into gray/white/CSF tissue moieties
+11. **qmaps** - alpha - app to evaluate data quality in EPSI brain volume
+12. **refdat** - alpha - app uses EPSI water Reference data to calculate data processing corrections
+13. **sinorm** - alpha - app to normalize metabolite maps to internal water estimates
+14. **util** - alpha - useful code and utilities for running/testing code
 
 All (some) modules have built in examples for running/using the code. Though the test data may not exist in your repository ... sorry. Typically just type:
 
@@ -22,7 +27,7 @@ The MIDAS project provides an integrated set of MRI and MRSI processing function
 
 This effort is based on code initially funded by NIH grant 1R01EB008387-01A1 that became the Vespa project. Other funding sources include NIH grants: U01CA264039, and many others
 
-We've had a lot of people support this effort, but I'd like to mention Philip Semanchuk (http://pyspoken.com), Dr. Jeffrey Alger and Dr. Alexander Giuffrida for their early contributions. 
+We've had a lot of people support this effort, but I'd like to mention Philip Semanchuk (http://pyspoken.com), Dr. Jeffrey Alger and Dr. Alexander Giuffrida for their early contributions as well as all the Emory contributions from Dr. Hyunsuk Shim, Abinand Rejimon, Anuradha Trivedi, and Karthik Ramesh. 
 
 ## License
 
