@@ -14,7 +14,7 @@ Start a command shell in the conda environment in which PyMIDAS is installed.
 
 Run this command:
 
-`>pip install pymidas --upgrade`
+`>pip install -i https://test.pypi.org/simple/ pymidas --upgrade`
 
 This should install the most recent version of the PyMIDAS package.  After it is done, please check your Python dependencies by running:
 
