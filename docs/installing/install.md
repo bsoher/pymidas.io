@@ -50,7 +50,7 @@ This switches you from whatever virtual conda environment you are currently in, 
 
 2.3 Then run this command:
 
-`>conda install -c conda-forge astropy pydicom nibabel nipype tzlocal collections`
+`>conda install -c conda-forge astropy pydicom nibabel nipype tzlocal`
 
 ### Step 3 - Now Install the PyMIDAS Package 
 
