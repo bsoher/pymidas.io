@@ -52,6 +52,10 @@ This switches you from whatever virtual conda environment you are currently in, 
 
 `>conda install -c conda-forge astropy pydicom nibabel nipype tzlocal`
 
+2.4 Then run this command (needed for pydicom to process compressed files):
+
+`>pip install -U pylibjpeg[all]`
+
 ### Step 3 - Now Install the PyMIDAS Package 
 
 At the command line, run this command:
