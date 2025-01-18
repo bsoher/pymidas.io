@@ -64,7 +64,7 @@ At the command line, run this command:
 
 Just FYI, for now we are distributing pymidas from the TestPyPI server
 
-### Step 4 (optional) - Doublecheck Vepsa Dependencies 
+### Step 4 (optional) - Doublecheck PyMIDAS Dependencies 
 
 At the command line, run this command:
  
