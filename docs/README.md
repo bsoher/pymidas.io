@@ -27,7 +27,7 @@ The MIDAS project provides an integrated set of MRI and MRSI processing function
 
 This effort is based on code initially funded by NIH grant 1R01EB008387-01A1 that became the Vespa project. Other funding sources include NIH grants: U01CA264039, and many others
 
-We've had a lot of people support this effort, but I'd like to mention Philip Semanchuk (http://pyspoken.com), Dr. Jeffrey Alger and Dr. Alexander Giuffrida for their early contributions as well as all the Emory contributions from Dr. Hyunsuk Shim, Abinand Rejimon, Anuradha Trivedi, and Karthik Ramesh. 
+We've had a lot of people support this effort, but I'd like to mention Philip Semanchuk, Dr. Jeffrey Alger and Dr. Alexander Giuffrida for their early contributions as well as all the Emory contributions from Dr. Hyunsuk Shim, Abinand Rejimon, Anuradha Trivedi, and Karthik Ramesh. 
 
 ## License
 
@@ -35,7 +35,7 @@ This project is currently licensed BSD 3-Clause License, see [LICENSE.md](LICENS
 
 ## Authors
 
-* **Brian J. Soher** - *Principal Investigator* - [Duke Radiology](https://radiology.duke.edu/faculty/brian-j-soher-phd/)
+* **Brian J. Soher** - *Principal Investigator* - [Duke Radiology](https://radiology.duke.edu/profile/brian-joseph-soher)
 
 ## Acknowledgments
 
