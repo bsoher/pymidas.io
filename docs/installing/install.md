@@ -18,7 +18,7 @@ You'll need to use the command line for most of these instructions. Be careful o
 
 ### Step 1 - Install Python (using Miniconda)
 
-PyMIDAS is being developed under Python 3.11. These instructions assume that you used Miniconda to install 64-bit Python as described below.
+PyMIDAS is being developed under Python 3.12. These instructions assume that you used Miniconda to install 64-bit Python as described below.
 
 Download [the 64-bit Miniconda3 package](https://docs.conda.io/en/latest/miniconda.html) for your system. Note - we recommend installing miniconda 'for yourself' vs 'all users' as this installs the 'miniconda3' subdirectory in your home directory. We assume for some hard coded paths below that this is the case.
 
@@ -28,15 +28,15 @@ Start an Anaconda (aka 'miniconda') command prompt (on Win10) by clicking the St
 
 In the Anaconda prompt, create a new environment within your miniconda installation called 'python39' (or whatever you want to name it) by typing:  
 
-`>conda create --name python311 python=3.11` 
+`>conda create --name python312 python=3.12` 
 
 conda will think for a bit, then list the files it will install and ask you to confirm. Type 'y' and return. Conda will then download packages and install them.
 
-The last step here is to activate the new python39 environment by typing: 
+The last step here is to activate the new python312 environment by typing: 
 
-`>conda activate python311` 
+`>conda activate python312` 
 
-This switches you from whatever virtual conda environment you are currently in, into the 'python311' (or whatever name you chose) environment you just created. All the additional software installation steps will now be applied to that environment.
+This switches you from whatever virtual conda environment you are currently in, into the 'python312' (or whatever name you chose) environment you just created. All the additional software installation steps will now be applied to that environment.
 
 ### Step 2 - Install PyMIDAS Dependencies
 
@@ -74,12 +74,12 @@ At the command line, run this command:
 
 (Apologies, but for now we do not have Linux or OSX shortcut instruction)
 
-In a text editor, edit the following line(s) to reflect the location of your miniconda 'pymidas311' (or whatever name) environment, and your pymidas Importer or Volumizer GUI modules. To test these, you should be able to cut/paste them into any CMD window and the app will run. It does not have to be a miniconda cmd window.
+In a text editor, edit the following line(s) to reflect the location of your miniconda 'pymidas312' (or whatever name) environment, and your pymidas Importer or Volumizer GUI modules. To test these, you should be able to cut/paste them into any CMD window and the app will run. It does not have to be a miniconda cmd window.
 
-`%windir%\System32\cmd.exe /k ""D:\bsoher\miniconda3\Scripts\activate.bat" "D:\bsoher\miniconda3\envs\pymidas311" && python "D:\bsoher\miniconda3\envs\pymidas311\Lib\site-packages\pymidas\importer\importer_gui.py" && exit"`
+`%windir%\System32\cmd.exe /k ""D:\bsoher\miniconda3\Scripts\activate.bat" "D:\bsoher\miniconda3\envs\pymidas312" && python "D:\bsoher\miniconda3\envs\pymidas311\Lib\site-packages\pymidas\importer\importer_gui.py" && exit"`
 
 and
 
-`%windir%\System32\cmd.exe /k ""D:\bsoher\miniconda3\Scripts\activate.bat" "D:\bsoher\miniconda3\envs\pymidas311" && python "D:\bsoher\miniconda3\envs\pymidas311\Lib\site-packages\pymidas\volumizer\volumizer_gui.py" && exit"`
+`%windir%\System32\cmd.exe /k ""D:\bsoher\miniconda3\Scripts\activate.bat" "D:\bsoher\miniconda3\envs\pymidas312" && python "D:\bsoher\miniconda3\envs\pymidas311\Lib\site-packages\pymidas\volumizer\volumizer_gui.py" && exit"`
 
 On your desktop, right click and select New->Shortcut. When asked to 'Type location of the item:' cut/paste one of the above lines into the dialog box. Click Next and name the Shortcut (typically Importer or Volumizer) and hit Enter.
