@@ -10,7 +10,7 @@ PyMIDAS is a Python package. It requires a Python environment be installed with 
 
 PyMIDAS is an actively developed project with ongoing releases. Once you have it installed, it is simple to upgrade with pip. 
 
-_Note. PyMIDAS is being developed mainly under Python 3.11, but work is under way to evaluate other later Python 3.x versions._
+_Note. PyMIDAS is being developed mainly under Python 3.12, but has previously been tested under Python 3.11 as well._
 
 The following instructions are based on using the 'Miniconda' installation, part of the Conda package management sytem, to install the dependencies that PyMIDAS requires. We are only installing the packages we need for simplicity. You could install these packages yourself using other means, but these instructions use conda. 
 
